@@ -1,0 +1,177 @@
+<h2>Cadastro de Currículo</h2>
+
+<form action="/Curriculo/Cacastrar" method="post">
+    <div class="form-horizontal">
+
+
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">Informações Pessoais</h3>
+            </div>
+            <div class="panel-body">
+
+                <div class="form-group">
+                    <label for="Nome" class="control-label col-md-2">Nome:</label>
+                    <div class="col-md-7">
+                        <input type="text" name="Nome" class="form-control" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="Email" class="control-label col-md-2">Email:</label>
+                    <div class="col-md-7">
+                        <input type="text" name="email" class="form-control" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="DataNascimento" class="control-label col-md-2">Data de Nascimento:</label>
+                    <div class="col-md-2">
+                        <input name="dataNascimento" type="date" class="form-control">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="altura" class="control-label col-md-2">Altura(m):</label>
+                    <div class="col-md-1">
+                    <input name="altura" type="number" class="form-control">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="site" class="control-label col-md-2">Site:</label>
+                    <div class="col-md-3">
+                        <input type="text" name="site" class="form-control" placeholder="Facebook, Instagram"/>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="EstadoCivil" class="control-label col-md-2">Estado Civil:</label>
+                    <div class="col-md-5">
+                        <select name="EstadoCivil" class="form-control">
+                            <option value="">-- Selecione --</option>
+                            <option value="Casado(a)">Casado(a)</option>
+                            <option value="Solteiro(a)">Solteiro(a)</option>
+                            <option value="Viúvo(a)">Viúvo(a)</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-2">
+                        Sexo:
+                    </label>
+                    <div class="col-md-10">
+                        <div class="radio-inline">
+                            <label>
+                                <input type="radio" name="Sexo" value="Masculino" />
+                                Masculino
+                            </label>
+                        </div>
+                        <div class="radio-inline">
+                            <label>
+                                <input type="radio" name="Sexo" value="Feminino" />
+                                Feminino
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+
+
+
+    <div class="panel panel-primary">
+
+        <div class="panel-heading">
+            <h3 class="panel-title">Endereço</h3>
+        </div>
+        <div class="panel-body">
+
+            <div class="form-group">
+                <label for="CEP" class="control-label col-md-2">CEP:</label>
+                <div class="col-md-3">
+                <input type="text" class="form-control" name="CEP">
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="Endereco" class="control-label col-md-2">Endereço:</label>
+                <div class="col-md-7">
+                <input type="text" class="form-control" name="Endereco">
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="panel panel-primary">
+
+        <div class="panel-heading">
+            <h3 class="panel-title">Contato</h3>
+        </div>
+        <div class="panel-body">
+
+            <div class="form-group">
+                <label for="Telefone" class="control-label col-md-2">Telefone:</label>
+                <div class="col-md-3">
+                <input type="text" class="form-control" name="Telefone">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="Celular" class="control-label col-md-2">Celular:</label>
+                <div class="col-md-3">
+                <input type="text" class="form-control" name="Celular">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">Conhecimentos</h3>
+            </div>
+            <div class="panel-body">
+
+                <div class="form-group">
+                    <div class="col-md-10">
+                        <div class="checkbox-inline">
+                            <label>
+                                <input type="checkbox" name="Html" /> Html
+                            </label>
+                        </div>
+                        <div class="checkbox-inline">
+                            <label>
+                                <input type="checkbox" name="Css" /> CSS
+                            </label>
+                        </div>
+                        <div class="checkbox-inline">
+                            <label>
+                                <input type="checkbox" name="Java" /> Java
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+
+            <div class="form-group">
+                <label for="Conhecimentos" class="control-label col-md-2">Mais Conhecimentos:</label>
+                 <div class="col-md-9">
+                    <textarea class="form-control" rows="10" name="conhecimentos" placeholder="Digite os seus conhecimentos">
+                    </textarea>
+                </div>
+            </div>
+
+        </div>
+  </div>
+
+        <div class="text-center">
+            <input id="Enviar" type="submit" value="Enviar" class="btn btn-primary"/>
+        </div>
+            
+</form>

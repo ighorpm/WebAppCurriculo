@@ -1,0 +1,10 @@
+/home/ighor/workspace/dotNet/WebAppCurriculoIghorMoura/bin/Debug/netcoreapp2.0/WebAppCurriculoIghorMoura.deps.json
+/home/ighor/workspace/dotNet/WebAppCurriculoIghorMoura/bin/Debug/netcoreapp2.0/WebAppCurriculoIghorMoura.runtimeconfig.json
+/home/ighor/workspace/dotNet/WebAppCurriculoIghorMoura/bin/Debug/netcoreapp2.0/WebAppCurriculoIghorMoura.runtimeconfig.dev.json
+/home/ighor/workspace/dotNet/WebAppCurriculoIghorMoura/bin/Debug/netcoreapp2.0/WebAppCurriculoIghorMoura.dll
+/home/ighor/workspace/dotNet/WebAppCurriculoIghorMoura/bin/Debug/netcoreapp2.0/WebAppCurriculoIghorMoura.pdb
+/home/ighor/workspace/dotNet/WebAppCurriculoIghorMoura/obj/Debug/netcoreapp2.0/WebAppCurriculoIghorMoura.csproj.CoreCompileInputs.cache
+/home/ighor/workspace/dotNet/WebAppCurriculoIghorMoura/obj/Debug/netcoreapp2.0/WebAppCurriculoIghorMoura.AssemblyInfoInputs.cache
+/home/ighor/workspace/dotNet/WebAppCurriculoIghorMoura/obj/Debug/netcoreapp2.0/WebAppCurriculoIghorMoura.AssemblyInfo.cs
+/home/ighor/workspace/dotNet/WebAppCurriculoIghorMoura/obj/Debug/netcoreapp2.0/WebAppCurriculoIghorMoura.dll
+/home/ighor/workspace/dotNet/WebAppCurriculoIghorMoura/obj/Debug/netcoreapp2.0/WebAppCurriculoIghorMoura.pdb
